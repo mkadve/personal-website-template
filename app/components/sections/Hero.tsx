@@ -12,7 +12,7 @@ export default function Hero() {
         <AnimatedText className="flex flex-col items-center sm:items-start gap-4">
           <Image
             className="rounded-full"
-            src="/avatar.jpg"
+            src="/mihir-kadve.jpg"
             alt="Mihir Kadve Profile Picture"
             width={120}
             height={120}
@@ -20,7 +20,7 @@ export default function Hero() {
           />
           <h1 className="text-4xl font-bold">Mihir Kadve</h1>
           <p className="text-lg text-foreground/80 font-[family-name:var(--font-geist-mono)]">
-            Full Stack Developer | React, Angular, Next.js, GCP
+            Full Stack Developer | React, Angular, Node.js, Next.js, GCP
           </p>
         </AnimatedText>
 
