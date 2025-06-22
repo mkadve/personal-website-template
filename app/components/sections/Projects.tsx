@@ -34,23 +34,76 @@ type Project = {
 const projects: Project[] = [
   {
     id: 1,
-    title: "Example Project 1",
-    description: "This is a sample project description. Detail the main features, technical architecture, your responsibilities and project highlights. Use concise language to emphasize key points.",
-    period: "2024.01 - 2024.03",
-    image: "/example1/screenshot.png", // Screenshot path
-    skills: ["React", "TypeScript", "Node.js"], // Tech stack
-    link: "https://github.com/username/project1"
+    title: "Planytics AI – GCP-Based Analytics & Notification System",
+    description:
+      "Built scalable serverless APIs using Cloud Functions, integrated with BigQuery and Bigtable. Developed real-time notification system with Firebase, and implemented CI/CD using GitLab, Docker, and Secret Manager. Designed BigQuery pipelines for auto-generating SQL based on filters.",
+    period: "2024.06 – Present",
+    image: "/project/planytics-project.png",
+    skills: ["GCP", "BigQuery", "Bigtable", "Cloud Functions", "Firebase", "Docker", "Angular", "Node.js"],
+    link: "https://github.com/mihirkadve" // Replace with real repo or live demo
   },
   {
-    id: 2, 
-    title: "Example Project 2",
-    description: "Another example project. Description can include: 1) Problems solved 2) Technical solutions used 3) Results achieved 4) What you learned",
-    period: "2023.10 - 2023.12",
-    image: "/example2/demo.png",
-    skills: ["Vue.js", "Python", "MongoDB"],
-    link: "https://github.com/username/project2"
-  }
+    id: 2,
+    title: "SextPanther (SP) – Chat Monetization Platform",
+    description:
+      "Developed key frontend modules using Next.js and Tailwind for a real-time chat-based monetization platform. Integrated WebSocket communication, notification systems, and session-level encryption. Followed mobile-first design and CI/CD best practices.",
+    period: "2023.09 – 2024.05",
+    image: "/project/sext-panther-project.png",
+    skills: ["Next.js", "Tailwind", "WebSocket", "React", "Node.js", "CI/CD"],
+    link: "https://github.com/mihirkadve" // Replace with real or demo
+  },
+  {
+    id: 3,
+    title: "CallPotential – CRM & Customer Outreach Suite",
+    description:
+      "Refactored legacy Angular modules and implemented performance-optimized dashboards for lead tracking and follow-up automation. Used Node.js APIs for REST integration and supported multi-role UI access control.",
+    period: "2021.03 – 2022.12",
+    image: "/project/callpotential-project.png",
+    skills: ["Angular", "Node.js", "REST APIs", "Jira", "Docker", "CI/CD"],
+    link: "https://github.com/mihirkadve"
+  },
+  {
+    id: 4,
+    title: "Manscore – Social Network & Gamification Platform",
+    description:
+      "Led frontend development in React and integrated RESTful APIs with Node.js backend. Worked closely with product team to roll out new UX patterns and implemented user scoring engine with Firebase functions.",
+    period: "2020.01 – 2021.02",
+    image: "/project/manscore-project.png",
+    skills: ["React", "Node.js", "Firebase", "MongoDB", "Bootstrap"],
+    link: "https://manscore.com"
+  },
+  {
+    id: 5,
+    title: "Kult – E-Commerce & Inventory Solution",
+    description:
+      "Built responsive ecommerce frontend using Vue.js and Vuex, integrated Firebase authentication and real-time inventory sync. Deployed scalable backend using Firebase Cloud Functions.",
+    period: "2019.01 – 2019.12",
+    image: "/project/kult-project.png",
+    skills: ["Vue.js", "Vuex", "Firebase", "SASS", "Bootstrap"],
+    link: "https://kult.in"
+  },
+  {
+    id: 6,
+    title: "ScriptDoor – AI Script Automation Tool",
+    description:
+      "Developed a tool for creators to generate AI-based video scripts with UI built in React and backend in Node.js. Integrated OpenAI for script prompts and stored content on MongoDB.",
+    period: "2023.01 – 2023.08",
+    image: "/project/scriptdoor-project.png",
+    skills: ["React", "Node.js", "MongoDB", "OpenAI", "Firebase"],
+    link: "https://scriptdoor.ai"
+  },
+  // {
+  //   id: 7,
+  //   title: "Payroll & Finance Management System",
+  //   description:
+  //     "Built dashboards using React and ASP.NET for payroll management. Implemented role-based access and SQL Server-based reporting using SSRS.",
+  //   period: "2016.01 – 2017.01",
+  //   image: "/project/payroll-project.png",
+  //   skills: ["React", "C#", "ASP.NET", "SQL Server", "SSRS"],
+  //   link: "#"
+  // }
 ];
+
 
 export default function Projects() {
   const [modalOpen, setModalOpen] = useState(false)

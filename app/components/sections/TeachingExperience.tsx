@@ -45,7 +45,7 @@ const courses: Course[] = [
     term: "2025 Winter",
     reviews: [
       "I absolutely loved Qianping. He was the perfect TA. He was available whenever I was confused, and explained concepts more clearly than the professor did some time. I loved being able to learn from him.",
-      "I really liked how Qianping went over the basic framework of the unit we were learning each week. It served as a great reference point and helped me in completeing the problem sets and exams a lot."
+      "I really liked how Qianping went over the basic framework of the unit we were learning each week. It served as a great reference point and helped me in completing the problem sets and exams a lot."
     ]
   },
   {
@@ -56,7 +56,7 @@ const courses: Course[] = [
     professor: "Professor Natalia Lazzati", 
     term: "2020 Fall"
   }
-]
+];
 
 export default function TeachingExperience() {
   return (

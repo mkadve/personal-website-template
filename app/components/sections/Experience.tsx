@@ -27,23 +27,52 @@ type Experience = {
 const experiences: Experience[] = [
   {
     id: 1,
-    title: "Example Position 1",
-    company: "Example Company 1",
-    period: "January 2024 - Present",
-    logo: "/companyicon/company1.png", // Logo image path
-    skills: ["React", "TypeScript", "Node.js"], // Skills list
-    description: "This is a sample work description detailing your main responsibilities and achievements in this role."
+    title: "Founding Engineer",
+    company: "Planytics",
+    period: "January 2024 – Present",
+    logo: "/companyicon/planytics.svg",
+    skills: [
+      "Angular","Next.js", "BigQuery", "Bigtable", "Cloud Functions", "Firebase", 
+      "Node.js", "CI/CD", "Firestore", "Socket.IO", "FullCalendar"
+    ],
+    description: `Working on a hospital operation management platform with real-time scheduling, 
+    calendar-based dashboards, and inventory management. Built AI-powered agents for query generation using BigQuery schema and LangChain. 
+    Architected CI/CD pipelines using GitHub Actions and GCP Cloud Build for faster releases.`
   },
   {
-    id: 2, 
-    title: "Example Position 2",
-    company: "Example Company 2",
-    period: "June 2023 - December 2023",
-    logo: "/companyicon/company2.png",
-    skills: ["Python", "Django", "PostgreSQL"],
-    description: "This is another sample work description. Consider including specific numbers and achievements."
+    id: 2,
+    title: "Full Stack  Developer",
+    company: "Codal Inc.",
+    period: "July 2022 – December 2023",
+    logo: "/companyicon/codal.png",
+    skills: ["React", "Next.js", "TypeScript", "Jest","Node.Js", "Redux", "TailwindCSS"],
+    description: `Led development for US-based e-commerce and fintech clients. 
+    Developed reusable React components and implemented accessibility-first design. 
+    Contributed to Next.js-based frontend architecture and handled multiple third-party integrations.`
+  },
+  {
+    id: 3,
+    title: "Sr. Software Engineer",
+    company: "Green Apex Technolabs",
+    period: "February 2022 – June 2022",
+    logo: "/companyicon/green-apex.png",
+    skills: ["React", "Node.js", "MongoDB", "Express", "REST APIs"],
+    description: `Worked on full-stack feature modules for a health-tech platform. 
+    Designed REST APIs, optimized MongoDB queries, and developed responsive React components. 
+    Gained experience in team-based agile development.`
+  },
+  {
+    id: 4,
+    title: "Software Developer",
+    company: "Prudent Corporate Advisory Services",
+    period: "August 2021 – January 2022",
+    logo: "/companyicon/prudent.jpg",
+    skills: ["Angular", "Firebase", "Firestore", "JavaScript"],
+    description: `Built modules for a mutual fund dashboard using Angular and Firebase. 
+    Implemented real-time Firestore data binding and created reusable services for authentication and data operations.`
   }
 ];
+
 
 export default function Experience() {
   const [modalOpen, setModalOpen] = useState(false)

@@ -13,31 +13,37 @@ interface CourseItem {
 // Example course data - Replace with your own education experience
 const courses: CourseItem[] = [
   {
-    date: "2023 - Present",
-    title: "Your University Name",
-    description: "Your Major | GPA: X.XX"
+    date: "2012 - 2016",
+    title: "Bachelor of Engineering in Electronics & Communication",
+    description: "LJ Institute of Engineering & Technology – Gujarat Technological University | CGPA: 7.5"
   },
   {
-    date: "Fall 2023",
-    title: "Course Name 1",
-    description: "Keyword1 | Keyword2 | Keyword3"
+    date: "2024 - Present",
+    title: "Cloud Engineering & AI Specialization (Independent Projects)",
+    description: "GCP: BigQuery, Bigtable, Cloud Functions, API Gateway, CI/CD, Docker"
   },
   {
-    date: "Spring 2024", 
-    title: "Course Name 2",
-    description: "Keyword1 | Keyword2 | Keyword3"
+    date: "2023 - 2024",
+    title: "Advanced Frontend Engineering",
+    description: "React.js | Next.js | TypeScript | Tailwind CSS | Firebase"
   },
   {
-    date: "Fall 2024",
-    title: "Course Name 3",
-    description: "Keyword1 | Keyword2 | Keyword3"
+    date: "2020 - 2023",
+    title: "Full Stack Development Experience (Codal & Planytics AI)",
+    description: "Micro Frontends | Modular React | REST APIs | UX Testing | GitLab"
   },
   {
-    date: "Spring 2025",
-    title: "Course Name 4", 
-    description: "Keyword1 | Keyword2 | Keyword3"
+    date: "2017 - 2020",
+    title: "Enterprise Angular Engineering (Green Apex)",
+    description: "Angular 6+ | Large-scale dashboards | Admin UIs | WebSockets | CI/CD"
+  },
+  {
+    date: "2016 - 2017",
+    title: "Foundations in Web Development (Prudent Technoserve)",
+    description: "C#, ASP.NET, React | Payroll & CRM Dashboards | SQL Server"
   }
 ]
+
 
 // Usage Instructions:
 // 1. Add your course information in the courses array above

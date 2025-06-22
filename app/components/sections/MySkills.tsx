@@ -11,35 +11,80 @@ import AnimatedText from "../common/AnimatedText"
 // Each skill item contains:
 // - name: Skill name
 // - icon: Icon path (SVG format, stored in public/skills/ directory)
-const technologies = {
-  // Frontend development skills examples
-  frontend: [
-    { name: 'React', icon: '/skills/react.svg' },
-    { name: 'Vue', icon: '/skills/vue.svg' },     // Add your familiar frontend frameworks
-    { name: 'TypeScript', icon: '/skills/typescript.svg' },
-  ],
+// const technologies = {
+//   // Frontend development skills examples
+//   frontend: [
+//     { name: 'React', icon: '/skills/react.svg' },
+//     { name: 'Vue', icon: '/skills/vue.png' },     // Add your familiar frontend frameworks
+//     { name: 'TypeScript', icon: '/skills/typescript.svg' },
+//   ],
   
-  // Backend development skills examples
+//   // Backend development skills examples
+//   backend: [
+//     { name: 'Node.js', icon: '/skills/nodejs.svg' },
+//     { name: 'Python', icon: '/skills/python.svg' }, // Add your familiar backend languages
+//     // { name: 'Java', icon: '/skills/java.svg' },
+//   ],
+
+//   // Database and deployment examples
+//   infrastructure: [
+//     { name: 'MySQL', icon: '/skills/mysql.png' },  // Add databases you've used
+//     { name: 'MongoDB', icon: '/skills/mongodb.svg' },
+//     { name: 'Docker', icon: '/skills/docker.png' }, // Add deployment tools you're familiar with
+//   ],
+
+//   // Development tools examples
+//   tools: [
+//     { name: 'Git', icon: '/skills/git.svg' },
+//     { name: 'VS Code', icon: '/skills/vscode.svg' },
+//     { name: 'Postman', icon: '/skills/postman.png' }, // Add your commonly used development tools
+//   ]
+// }
+
+const technologies = {
+  frontend: [
+    { name: "React", icon: "/skills/react.svg" },
+    { name: "Next.js", icon: "/skills/nextjs.svg" },
+    // { name: "React Native", icon: "/skills/react-native.svg" },
+    { name: "TypeScript", icon: "/skills/typescript.svg" },
+    { name: "Redux", icon: "/skills/redux.svg" },
+    { name: "Tailwind CSS", icon: "/skills/tailwindcss.svg" },
+    { name: "Styled Components", icon: "/skills/styledcomponents.svg" },
+    { name: "Material UI", icon: "/skills/material-ui.svg" },
+    { name: "Ant Design", icon: "/skills/antd.svg" },
+    { name: "Socket.io", icon: "/skills/socketio.svg" }
+  ],
+
   backend: [
-    { name: 'Node.js', icon: '/skills/nodejs.svg' },
-    { name: 'Python', icon: '/skills/python.svg' }, // Add your familiar backend languages
-    { name: 'Java', icon: '/skills/java.svg' },
+    { name: "Node.js", icon: "/skills/nodejs.svg" },
+    { name: "Express", icon: "/skills/express.svg" },
+    { name: "Python", icon: "/skills/python.svg" },
+    { name: "C#", icon: "/skills/csharp.svg" },
+    // { name: "ASP.NET", icon: "/skills/aspnet.svg" }
   ],
 
-  // Database and deployment examples
   infrastructure: [
-    { name: 'MySQL', icon: '/skills/mysql.svg' },  // Add databases you've used
-    { name: 'MongoDB', icon: '/skills/mongodb.svg' },
-    { name: 'Docker', icon: '/skills/docker.svg' }, // Add deployment tools you're familiar with
+    { name: "AWS", icon: "/skills/aws.svg" },
+    { name: "Firebase", icon: "/skills/firebase.svg" },
+    { name: "Docker", icon: "/skills/docker.png" },
+    { name: "Github Actions", icon: "/skills/github.svg" },
+    // { name: "Azure DevOps", icon: "/skills/azuredevops.svg" }
   ],
 
-  // Development tools examples
   tools: [
-    { name: 'Git', icon: '/skills/git.svg' },
-    { name: 'VS Code', icon: '/skills/vscode.svg' },
-    { name: 'Postman', icon: '/skills/postman.svg' }, // Add your commonly used development tools
+    { name: "Git", icon: "/skills/git.svg" },
+    { name: "GitHub", icon: "/skills/github.svg" },
+    { name: "Jira", icon: "/skills/jira.svg" },
+    { name: "Postman", icon: "/skills/postman.png" },
+    { name: "Figma", icon: "/skills/figma.svg" },
+    { name: "SonarQube", icon: "/skills/sonarqube.svg" },
+    // { name: "Framer Motion", icon: "/skills/framer-motion.svg" },
+    { name: "NPM", icon: "/skills/npm.svg" },
+    { name: "Yarn", icon: "/skills/yarn.svg" },
+    { name: "JavaScript", icon: "/skills/javascript.svg" }
   ]
 }
+
 
 // Category display name configuration
 // You can modify category names or add new categories as needed
